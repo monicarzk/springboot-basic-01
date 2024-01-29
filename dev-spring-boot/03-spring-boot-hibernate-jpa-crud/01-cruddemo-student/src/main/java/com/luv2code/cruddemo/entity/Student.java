@@ -50,12 +50,12 @@ public class Student {
         this.firstName = firstName;
     }
 
-    public String getLasttName() {
+    public String getLastName() {
         return lastName;
     }
 
-    public void setLasttName(String lasttName) {
-        this.lastName = lasttName;
+    public void setLasttName(String lastName) {
+        this.lastName = lastName;
     }
 
     public String getEmail() {
@@ -75,7 +75,7 @@ public class Student {
         return "Student{" +
                 "id=" + id +
                 ", firstName='" + firstName + '\'' +
-                ", lasttName='" + lastName + '\'' +
+                ", lastName='" + lastName + '\'' +
                 ", email='" + email + '\'' +
                 '}';
     }
